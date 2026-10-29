@@ -34,8 +34,8 @@ The current prototype allows users to explore supported cities, view their avail
 
 The following sections are reserved for screenshots of the actual running prototype.
 
-| **Main Dashboard**<br><br>(https://github.com/prachi01645/thermocortex.SIH/blob/main/docs/images/dashboard.png) ([<img width="944" height="437" alt="image" src="https://github.com/user-attachments/assets/3369d9aa-52c2-4f88-978b-92b29068f34b" />
-](https://github.com/prachi01645/thermocortex.SIH/raw/main/docs/images/dashboard.png))<br>Weather information and thermal-stress results in one interface. | **Interactive Map**<br><br>\ (<img width="741" height="420" alt="image" src="https://github.com/user-attachments/assets/759a76b1-10dd-4645-ad57-6c88b454e758" />
+| **Main Dashboard**<br><br>(https://github.com/prachi01645/thermocortex.SIH/blob/main/docs/images/dashboard.png) ([<img width="541" height="320" alt="image" src="https://github.com/user-attachments/assets/3369d9aa-52c2-4f88-978b-92b29068f34b" />
+](https://github.com/prachi01645/thermocortex.SIH/raw/main/docs/images/dashboard.png))<br>Weather information and thermal-stress results in one interface. | **Interactive Map**<br><br>\ (<img width="541" height="320" alt="image" src="https://github.com/user-attachments/assets/759a76b1-10dd-4645-ad57-6c88b454e758" />
 ](https://github.com/prachi01645/thermocortex.SIH/raw/main/docs/images/heat-risk-map.png))<br>Explore supported cities through geographic visualization. |
 |---|---|
 | **Forecast Timeline**<br><br>[THERMOCORTEX forecast timeline](https://github.com/prachi01645/thermocortex.SIH/blob/main/docs/images/forecast-timeline.png) ([image](https://github.com/prachi01645/thermocortex.SIH/raw/main/docs/images/forecast-timeline.png))<br>Explore available hourly weather conditions and forecast variables. | **Thermal-Stress Analysis**<br><br>[THERMOCORTEX thermal-stress analysis](https://github.com/prachi01645/thermocortex.SIH/blob/main/docs/images/thermal-stress.png) ([image](https://github.com/prachi01645/thermocortex.SIH/raw/main/docs/images/thermal-stress.png))<br>Explore thermal-stress calculations and illustrative sun-versus-shade scenarios. |
