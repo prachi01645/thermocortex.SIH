@@ -34,12 +34,14 @@ The current prototype allows users to explore supported cities, view their avail
 
 The following sections are reserved for screenshots of the actual running prototype.
 
- **Main Dashboard**<br><br>(https://github.com/prachi01645/thermocortex.SIH/blob/main/docs/images/dashboard.png) <img width="900" height="437" alt="image" src="https://github.com/user-attachments/assets/3369d9aa-52c2-4f88-978b-92b29068f34b" /><br>Weather information and thermal-stress results in one interface.
- 
- **Interactive Map**<br><br><img width="730" height="413" alt="image" src="https://github.com/user-attachments/assets/8d816373-1f04-47b3-bff2-6e7fefe177e9" /><br>
-| **Forecast Timeline**<br><br>[THERMOCORTEX forecast timeline](https://github.com/prachi01645/thermocortex.SIH/blob/main/docs/images/forecast-timeline.png) <img width="743" height="332" alt="image" src="https://github.com/user-attachments/assets/6bcc444a-00b8-4d9c-9f1b-57fffeba08b6" />
+ **Main Dashboard**<br><br> <img width="900" height="437" alt="image" src="https://github.com/user-attachments/assets/3369d9aa-52c2-4f88-978b-92b29068f34b" /><br>
+ Weather information and thermal-stress results in one interface.
+**Interactive Map**<br><br><img width="730" height="413" alt="image" src="https://github.com/user-attachments/assets/8d816373-1f04-47b3-bff2-6e7fefe177e9" /><br>
+ **Forecast Timeline**<br><br>[THERMOCORTEX forecast timeline] <img width="743" height="332" alt="image" src="https://github.com/user-attachments/assets/6bcc444a-00b8-4d9c-9f1b-57fffeba08b6" />
 <br>Explore available hourly weather conditions and forecast variables. 
-| **Thermal-Stress Analysis**<br><br>[THERMOCORTEX thermal-stress analysis](https://github.com/prachi01645/thermocortex.SIH/blob/main/docs/images/thermal-stress.png) ([image](https://github.com/prachi01645/thermocortex.SIH/raw/main/docs/images/thermal-stress.png))<br>Explore thermal-stress calculations and illustrative sun-versus-shade scenarios. |
+| **Human impact**<br><br>[THERMOCORTEX thermal-stress analysis] ([<img width="739" height="263" alt="image" src="https://github.com/user-attachments/assets/2744d7ee-598a-4f66-a825-92a811a12914" />
+]<br>
+Explore thermal-stress calculations and illustrative sun-versus-shade scenarios. |
 | **Response Priorities**<br><br>[THERMOCORTEX response priorities](https://github.com/prachi01645/thermocortex.SIH/blob/main/docs/images/response-priorities.png) ([image](https://github.com/prachi01645/thermocortex.SIH/raw/main/docs/images/response-priorities.png))<br>View precautionary guidance for hot conditions. | **Regional Overview**<br><br>[THERMOCORTEX regional overview](https://github.com/prachi01645/thermocortex.SIH/blob/main/docs/images/regional-overview.png) ([image](https://github.com/prachi01645/thermocortex.SIH/raw/main/docs/images/regional-overview.png))<br>Compare the prototype's regional demonstration scores. |
 | **Methodology & Data Sources**<br><br>[THERMOCORTEX methodology and data](https://github.com/prachi01645/thermocortex.SIH/blob/main/docs/images/method-data.png) ([image](https://github.com/prachi01645/thermocortex.SIH/raw/main/docs/images/method-data.png))<br>Review weather sources, calculation assumptions, limitations, and validation plans. | |
 
