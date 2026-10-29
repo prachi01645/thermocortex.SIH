@@ -1,130 +1,156 @@
-[![License: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)](LICENSE)
-![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-Backend-009688?logo=fastapi&logoColor=white)
-![React](https://img.shields.io/badge/React-Frontend-61DAFB?logo=react&logoColor=black)
-![Vite](https://img.shields.io/badge/Vite-Build_Tool-646CFF?logo=vite&logoColor=white)
-![Weather Data](https://img.shields.io/badge/Weather-Open--Meteo-2196F3)
-![Status](https://img.shields.io/badge/status-prototype-orange)
-
-
-
 # THERMOCORTEX
-### Extreme Heatwave Early Warning & Human Thermal Stress Intelligence
+### Extreme Heatwave Early Warning & Human Thermal Stress Intelligence Platform
 
-**THERMOCORTEX** is a heat-risk monitoring dashboard being developed for **Smart India Hackathon 2026 — Problem Statement 26083**. The project aims to move beyond temperature-only alerts by considering environmental conditions that influence human thermal stress.
+**Beyond temperature. Toward contextual heat-risk awareness.**
+
+THERMOCORTEX explores how weather conditions and thermal-stress calculations can be combined to provide a more contextual understanding of extreme heat. Developed by **Team GIT SHIP DONE** for Smart India Hackathon 2026, the project brings environmental data, geographic visualization, and thermal-stress analysis into a unified dashboard.
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-Backend-blue?logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/FastAPI-API-009688?logo=fastapi&logoColor=white" alt="FastAPI">
+  <img src="https://img.shields.io/badge/React-Frontend-61DAFB?logo=react&logoColor=black" alt="React">
+  <img src="https://img.shields.io/badge/Open--Meteo-Weather_Data-2196F3" alt="Open-Meteo">
+  <img src="https://img.shields.io/badge/Status-Prototype-orange" alt="Prototype">
+  <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="MIT License">
+</p>
+
+---
 
 ## The Problem
 
-High air temperature alone does not fully describe how dangerous outdoor conditions can be. Relative humidity, wind speed and solar exposure can change how the human body experiences heat.
+Extreme heat is not defined by air temperature alone. Relative humidity, wind conditions, and solar exposure influence how the human body experiences hot environments.
 
-THERMOCORTEX aims to combine relevant weather data with interpretable thermal-risk indicators to support more context-aware heat warnings and practical safety guidance.
+Two locations with the same air temperature can present different thermal conditions. Yet, temperature-focused displays may not communicate these differences clearly.
 
-## Current Prototype
+The challenge is to bring relevant environmental variables together and present them in a way that makes heat conditions easier to explore and interpret.
 
-The project is under active development. The current prototype includes:
+## Our Approach
 
-- A React-based web dashboard
-- City selection for Ahmedabad, Nagpur, Delhi and Kolkata
-- Current weather conditions and a 12-hour forecast using Open-Meteo
-- Weather indicators including temperature, relative humidity, wind speed, UV and solar-related data where provided
-- Wet-bulb temperature and NOAA Heat Index displays
-- A backend health-check endpoint
-- Heat-safety precautions and regional comparison visuals
+THERMOCORTEX combines weather data, backend thermal-stress calculations, and interactive geographic visualization in one application.
 
-**Development note:** Regional comparison scores and risk categories that are marked as illustrative in the interface are not validated health predictions. A validated, city-specific thermal-stress methodology and forecasting engine remain development goals.
+The current prototype allows users to explore supported cities, view their available weather conditions, and examine illustrative thermal-stress results. Its modular architecture provides a foundation for developing more transparent regional estimates and evaluating different thermal-stress methodologies.
+
+## Application Preview
+
+The following sections are reserved for screenshots of the actual running prototype.
+
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <strong>Main Dashboard</strong><br><br>
+      <img src="docs/images/dashboard.png" alt="THERMOCORTEX main dashboard" width="100%"><br>
+      <sub>Weather information and thermal-stress results in one interface.</sub>
+    </td>
+    <td width="50%" align="center">
+      <strong>Interactive Map</strong><br><br>
+      <img src="docs/images/heat-risk-map.png" alt="THERMOCORTEX interactive map" width="100%"><br>
+      <sub>Explore Ahmedabad, Nagpur, Delhi, and Kolkata.</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <strong>Thermal-Stress Analysis</strong><br><br>
+      <img src="docs/images/thermal-stress.png" alt="THERMOCORTEX thermal-stress analysis" width="100%"><br>
+      <sub>Illustrative calculations based on the current model assumptions.</sub>
+    </td>
+    <td width="50%" align="center">
+      <strong>Regional Overview</strong><br><br>
+      <img src="docs/images/regional-overview.png" alt="THERMOCORTEX regional overview" width="100%"><br>
+      <sub>Regional dashboard view for prototype exploration.</sub>
+    </td>
+  </tr>
+</table>
+
+## Core Capabilities
+
+- **Weather data integration:** Retrieves available current and hourly weather variables from Open-Meteo.
+- **Interactive geographic visualization:** Supports map-based selection of four Indian cities.
+- **Thermal-stress calculations:** Uses a Python backend and `pythermalcomfort` to calculate thermal-stress indicators.
+- **Exposure comparison:** Presents illustrative open-sun and shade scenarios based on the current assumptions.
+- **Connected architecture:** Integrates a React dashboard with a FastAPI backend for calculation requests.
+- **Periodic updates:** Refreshes weather information for the currently selected city.
+
+## System Architecture
+
+```mermaid
+flowchart TD
+    A[Open-Meteo Weather API] --> B[Weather Data Retrieval]
+    B --> C[React Dashboard]
+    D[Interactive City Map] --> C
+    C --> E[FastAPI Backend]
+    E --> F[Thermal-Stress Calculation]
+    F --> G[Calculation Results]
+    G --> C
+```
+
+The frontend manages the dashboard and city-selection experience, while the backend handles thermal-stress calculations. Weather information comes from an external API, keeping data retrieval separate from calculation logic.
 
 ## Technology Stack
 
-| Component | Technology |
+| Layer | Technologies |
 |---|---|
-| Frontend | React, JavaScript, HTML, CSS |
-| Frontend tooling | Vite, npm |
+| Frontend | React, Vite, JavaScript, CSS |
 | Backend | Python, FastAPI |
-| Weather data | Open-Meteo |
-| Data visualization | Dashboard-based visual indicators |
+| Thermal calculations | pythermalcomfort |
+| Weather data | Open-Meteo API |
+| Mapping | React Leaflet, ArcGIS World Street Map |
+| Version control | Git, GitHub |
 
-## Project Architecture
-
-The intended workflow is:
-
-1. **Weather input:** Retrieve relevant weather observations and forecast data.
-2. **Data processing:** Organize environmental variables for the selected location.
-3. **Thermal-risk analysis:** Develop and validate an explainable heat-stress methodology.
-4. **Risk communication:** Present understandable indicators and location-specific guidance.
-5. **Future improvements:** Add validated risk forecasts, spatial comparisons and alerting as these capabilities are implemented.
-
-Steps 3–5 are being developed and should not be interpreted as fully implemented capabilities.
-
-## Run Locally
+## Getting Started
 
 ### Prerequisites
 
-- Node.js and npm
-- Python 3
-- Git
+Python 3.10 or newer, Node.js, npm, and Git.
 
-### 1. Clone the repository
+**1. Clone the repository**
 
 ```bash
 git clone https://github.com/prachi01645/thermocortex.SIH.git
 cd thermocortex.SIH
 ```
 
-### 2. Start the frontend
+**2. Start the backend**
+
+```bash
+cd backend
+py -m pip install fastapi uvicorn pythermalcomfort astral
+py -m uvicorn main:app --reload
+```
+
+The backend should run at `http://127.0.0.1:8000`.
+
+**3. Start the frontend**
+
+Open a second terminal in the project root:
 
 ```bash
 npm install
 npm run dev
 ```
 
-Open the local URL printed by Vite in your terminal.
+Open the local URL displayed by Vite, usually `http://localhost:5173`.
 
-### 3. Start the backend
+Additional Python dependencies may be required if they are not included in the commands above.
 
-Open a second terminal:
+## Current Status and Future Direction
 
-```bash
-cd backend
-python -m venv .venv
-```
+The prototype includes the React dashboard, selected-city weather integration, interactive map, and initial backend thermal-stress calculations.
 
-Activate the virtual environment on Windows PowerShell:
+The next development priorities are to replace fixed regional demonstration scores with transparent weather-based estimates, document the selected methodology and its assumptions, test calculations against appropriate reference data, and explore integration with official heat-alert sources.
 
-```powershell
-.\.venv\Scripts\Activate.ps1
-```
+These improvements are necessary before the system can be considered for operational heat-risk assessment.
 
-Install the backend dependencies required by the project, then run:
+## Limitations
 
-```powershell
-python -m uvicorn main:app --host 127.0.0.1 --port 8000
-```
+THERMOCORTEX is an experimental prototype, not an official heatwave-warning service. Its thermal-stress results rely on model inputs and assumptions and have not been independently validated. The open-sun and shade comparison is illustrative, and fixed regional demonstration scores must not be interpreted as validated risk rankings.
 
-**Dependency note:** A backend dependency file will be added as the project is standardized. Until then, install the packages imported by `backend/main.py` in your environment. If the frontend requires a specific API URL, configure it according to the existing frontend code.
+For real-world safety decisions, consult official meteorological alerts and public-health guidance.
 
-## Roadmap
+## Team
 
-- [ ] Document and validate the thermal-stress calculation methodology
-- [ ] Develop city-specific risk calculations using appropriate environmental inputs
-- [ ] Add explainable risk levels and supporting factors
-- [ ] Improve forecast-based heat-risk communication
-- [ ] Enhance regional visualizations and location comparisons
-- [ ] Add appropriate, evidence-based safety guidance
-- [ ] Add automated tests and reproducible setup instructions
-- [ ] Document data sources, assumptions and limitations
+**GIT SHIP DONE**  
+Smart India Hackathon 2026
 
-## Responsible Use
+## License
 
-THERMOCORTEX is a developing prototype, not a certified medical or public-warning system. Its outputs should not replace official weather alerts, public-health advice or professional guidance. Risk calculations must be validated before being used for operational decisions.
-
-## Data Source
-
-- [Open-Meteo](https://open-meteo.com/) — weather data and forecast services. Refer to the applicable API documentation and terms for attribution and usage requirements.
-
-## Repository
-
-[GitHub — prachi01645/thermocortex.SIH](https://github.com/prachi01645/thermocortex.SIH)
-
----
-
-Developed for Smart India Hackathon 2026, Problem Statement 26083.
+Distributed under the MIT License. See [LICENSE](LICENSE) for details.
