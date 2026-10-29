@@ -6,7 +6,7 @@
 THERMOCORTEX explores how weather conditions and thermal-stress calculations can be combined to provide a more contextual understanding of extreme heat. Developed by **Team GIT SHIP DONE** for Smart India Hackathon 2026, the project brings environmental data, geographic visualization, and thermal-stress analysis into a unified dashboard.
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-Backend-red?logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/Python-Backend-blue?logo=python&logoColor=white" alt="Python">
   <img src="https://img.shields.io/badge/FastAPI-API-009688?logo=fastapi&logoColor=white" alt="FastAPI">
   <img src="https://img.shields.io/badge/React-Frontend-61DAFB?logo=react&logoColor=black" alt="React">
   <img src="https://img.shields.io/badge/Open--Meteo-Weather_Data-2196F3" alt="Open-Meteo">
