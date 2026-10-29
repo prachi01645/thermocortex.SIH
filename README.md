@@ -7,7 +7,7 @@ THERMOCORTEX explores how weather conditions and thermal-stress calculations can
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-Backend-blue?logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/FastAPI-API-009688?logo=fastapi&logoColor=light red" alt="FastAPI">
+  <img src="https://img.shields.io/badge/FastAPI-API-009688?logo=fastapi&logoColor=white" alt="FastAPI">
   <img src="https://img.shields.io/badge/React-Frontend-61DAFB?logo=react&logoColor=black" alt="React">
   <img src="https://img.shields.io/badge/Open--Meteo-Weather_Data-2196F3" alt="Open-Meteo">
   <img src="https://img.shields.io/badge/Status-Prototype-green" alt="Prototype">
