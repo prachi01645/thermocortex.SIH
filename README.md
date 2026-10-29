@@ -38,7 +38,7 @@ The following sections are reserved for screenshots of the actual running protot
  
 **Interactive Map**<br><br><img width="730" height="413" alt="image" src="https://github.com/user-attachments/assets/8d816373-1f04-47b3-bff2-6e7fefe177e9" /><br>
 
-**Forecast Timeline**<br><br>[THERMOCORTEX forecast timeline] <img width="743" height="332" alt="image" src="https://github.com/user-attachments/assets/6bcc444a-00b8-4d9c-9f1b-57fffeba08b6" /><br>
+**Forecast Timeline**<br><br><img width="743" height="332" alt="image" src="https://github.com/user-attachments/assets/6bcc444a-00b8-4d9c-9f1b-57fffeba08b6" /><br>
 
 **Human impact**<br><br>[THERMOCORTEX thermal-stress analysis] <img width="739" height="263" alt="image" src="https://github.com/user-attachments/assets/2744d7ee-598a-4f66-a825-92a811a12914" /><br>
 
