@@ -34,32 +34,14 @@ The current prototype allows users to explore supported cities, view their avail
 
 The following sections are reserved for screenshots of the actual running prototype.
 
-<table>
-  <tr>
-    <td width="50%" align="center">
-      <strong>Main Dashboard</strong><br><br>
-      <img src="docs/images/dashboard.png" alt="THERMOCORTEX main dashboard" width="100%"><br>
-      <sub>Weather information and thermal-stress results in one interface.</sub>
-    </td>
-    <td width="50%" align="center">
-      <strong>Interactive Map</strong><br><br>
-      <img src="docs/images/heat-risk-map.png" alt="THERMOCORTEX interactive map" width="100%"><br>
-      <sub>Explore Ahmedabad, Nagpur, Delhi, and Kolkata.</sub>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" align="center">
-      <strong>Thermal-Stress Analysis</strong><br><br>
-      <img src="docs/images/thermal-stress.png" alt="THERMOCORTEX thermal-stress analysis" width="100%"><br>
-      <sub>Illustrative calculations based on the current model assumptions.</sub>
-    </td>
-    <td width="50%" align="center">
-      <strong>Regional Overview</strong><br><br>
-      <img src="docs/images/regional-overview.png" alt="THERMOCORTEX regional overview" width="100%"><br>
-      <sub>Regional dashboard view for prototype exploration.</sub>
-    </td>
-  </tr>
-</table>
+The following sections are reserved for screenshots of the actual running prototype.
+
+| **Main Dashboard**<br><br>[THERMOCORTEX main dashboard](https://github.com/prachi01645/thermocortex.SIH/blob/main/docs/images/dashboard.png) ([image](https://github.com/prachi01645/thermocortex.SIH/raw/main/docs/images/dashboard.png))<br>Weather information and thermal-stress results in one interface. | **Interactive Map**<br><br>[THERMOCORTEX interactive map](https://github.com/prachi01645/thermocortex.SIH/blob/main/docs/images/heat-risk-map.png) ([image](https://github.com/prachi01645/thermocortex.SIH/raw/main/docs/images/heat-risk-map.png))<br>Explore supported cities through geographic visualization. |
+|---|---|
+| **Forecast Timeline**<br><br>[THERMOCORTEX forecast timeline](https://github.com/prachi01645/thermocortex.SIH/blob/main/docs/images/forecast-timeline.png) ([image](https://github.com/prachi01645/thermocortex.SIH/raw/main/docs/images/forecast-timeline.png))<br>Explore available hourly weather conditions and forecast variables. | **Thermal-Stress Analysis**<br><br>[THERMOCORTEX thermal-stress analysis](https://github.com/prachi01645/thermocortex.SIH/blob/main/docs/images/thermal-stress.png) ([image](https://github.com/prachi01645/thermocortex.SIH/raw/main/docs/images/thermal-stress.png))<br>Explore thermal-stress calculations and illustrative sun-versus-shade scenarios. |
+| **Response Priorities**<br><br>[THERMOCORTEX response priorities](https://github.com/prachi01645/thermocortex.SIH/blob/main/docs/images/response-priorities.png) ([image](https://github.com/prachi01645/thermocortex.SIH/raw/main/docs/images/response-priorities.png))<br>View precautionary guidance for hot conditions. | **Regional Overview**<br><br>[THERMOCORTEX regional overview](https://github.com/prachi01645/thermocortex.SIH/blob/main/docs/images/regional-overview.png) ([image](https://github.com/prachi01645/thermocortex.SIH/raw/main/docs/images/regional-overview.png))<br>Compare the prototype's regional demonstration scores. |
+| **Methodology & Data Sources**<br><br>[THERMOCORTEX methodology and data](https://github.com/prachi01645/thermocortex.SIH/blob/main/docs/images/method-data.png) ([image](https://github.com/prachi01645/thermocortex.SIH/raw/main/docs/images/method-data.png))<br>Review weather sources, calculation assumptions, limitations, and validation plans. | |
+
 
 ## Core Capabilities
 
