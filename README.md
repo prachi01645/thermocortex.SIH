@@ -38,6 +38,9 @@ The following sections are reserved for screenshots of the actual running protot
  
 **Interactive Map**<br><br><img width="730" height="413" alt="image" src="https://github.com/user-attachments/assets/8d816373-1f04-47b3-bff2-6e7fefe177e9" /><br>
 
+**Regional Overview**<br><br>
+<img width="299" height="218" alt="image" src="https://github.com/user-attachments/assets/ceedbd9f-3047-4ace-b167-bd6d016ab652" /><br>
+
 **Regional risk overview**<br><br><img width="372" height="255" alt="image" src="https://github.com/user-attachments/assets/1fa05f9e-9e6b-464d-a714-8702c14fb543" /><br>
 
 **Forecast Timeline**<br><br><img width="743" height="332" alt="image" src="https://github.com/user-attachments/assets/6bcc444a-00b8-4d9c-9f1b-57fffeba08b6" /><br>
@@ -46,9 +49,6 @@ The following sections are reserved for screenshots of the actual running protot
 
 **Response Priorities**<br><br><img width="321" height="230" alt="image" src="https://github.com/user-attachments/assets/a296dfbc-d4e5-4886-b128-0f3bab4e99ac" /><br>
  
-**Regional Overview**<br><br>
-<img width="299" height="218" alt="image" src="https://github.com/user-attachments/assets/ceedbd9f-3047-4ace-b167-bd6d016ab652" /><br>
-
 **Methodology & Data Sources**<br><br><img width="752" height="394" alt="image" src="https://github.com/user-attachments/assets/fed9268b-c112-4469-aa8e-e813b0f35eac" />
  <Br>
 
