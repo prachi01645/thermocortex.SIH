@@ -34,24 +34,20 @@ The current prototype allows users to explore supported cities, view their avail
 
 The following sections are reserved for screenshots of the actual running prototype.
 
- **Main Dashboard**<br><br> <img width="900" height="437" alt="image" src="https://github.com/user-attachments/assets/3369d9aa-52c2-4f88-978b-92b29068f34b" /><br>
+**Main Dashboard**<br><br> <img width="900" height="437" alt="image" src="https://github.com/user-attachments/assets/3369d9aa-52c2-4f88-978b-92b29068f34b" /><br>
  
 **Interactive Map**<br><br><img width="730" height="413" alt="image" src="https://github.com/user-attachments/assets/8d816373-1f04-47b3-bff2-6e7fefe177e9" /><br>
 
- **Forecast Timeline**<br><br>[THERMOCORTEX forecast timeline] <img width="743" height="332" alt="image" src="https://github.com/user-attachments/assets/6bcc444a-00b8-4d9c-9f1b-57fffeba08b6" />
-<br>
+**Forecast Timeline**<br><br>[THERMOCORTEX forecast timeline] <img width="743" height="332" alt="image" src="https://github.com/user-attachments/assets/6bcc444a-00b8-4d9c-9f1b-57fffeba08b6" /><br>
 
- **Human impact**<br><br>[THERMOCORTEX thermal-stress analysis] ([<img width="739" height="263" alt="image" src="https://github.com/user-attachments/assets/2744d7ee-598a-4f66-a825-92a811a12914" />]<br>
+**Human impact**<br><br>[THERMOCORTEX thermal-stress analysis] <img width="739" height="263" alt="image" src="https://github.com/user-attachments/assets/2744d7ee-598a-4f66-a825-92a811a12914" /><br>
 
- **Response Priorities**<br><br>
- <img width="321" height="230" alt="image" src="https://github.com/user-attachments/assets/a296dfbc-d4e5-4886-b128-0f3bab4e99ac" />
-<br>
+**Response Priorities**<br><br><img width="321" height="230" alt="image" src="https://github.com/user-attachments/assets/a296dfbc-d4e5-4886-b128-0f3bab4e99ac" /><br>
  
 **Regional Overview**<br><br>
-<img width="299" height="218" alt="image" src="https://github.com/user-attachments/assets/ceedbd9f-3047-4ace-b167-bd6d016ab652" />]<br>
+<img width="299" height="218" alt="image" src="https://github.com/user-attachments/assets/ceedbd9f-3047-4ace-b167-bd6d016ab652" /><br>
 
- **Methodology & Data Sources**<br><br>
- <img <img width="752" height="394" alt="image" src="https://github.com/user-attachments/assets/fed9268b-c112-4469-aa8e-e813b0f35eac" />
+**Methodology & Data Sources**<br><br><img <img width="752" height="394" alt="image" src="https://github.com/user-attachments/assets/fed9268b-c112-4469-aa8e-e813b0f35eac" />
  />
 
 ## Core Capabilities
