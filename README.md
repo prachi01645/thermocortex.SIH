@@ -45,7 +45,7 @@ The following sections are reserved for screenshots of the actual running protot
 
 **Forecast Timeline**<br><br><img width="743" height="332" alt="image" src="https://github.com/user-attachments/assets/6bcc444a-00b8-4d9c-9f1b-57fffeba08b6" /><br>
 
-**Human impact**<br><br>[THERMOCORTEX thermal-stress analysis] <img width="739" height="263" alt="image" src="https://github.com/user-attachments/assets/2744d7ee-598a-4f66-a825-92a811a12914" /><br>
+**Human impact**<br><br><img width="739" height="263" alt="image" src="https://github.com/user-attachments/assets/2744d7ee-598a-4f66-a825-92a811a12914" /><br>
 
 **Response Priorities**<br><br><img width="321" height="230" alt="image" src="https://github.com/user-attachments/assets/a296dfbc-d4e5-4886-b128-0f3bab4e99ac" /><br>
  
