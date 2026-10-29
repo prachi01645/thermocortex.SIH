@@ -47,8 +47,8 @@ The following sections are reserved for screenshots of the actual running protot
 **Regional Overview**<br><br>
 <img width="299" height="218" alt="image" src="https://github.com/user-attachments/assets/ceedbd9f-3047-4ace-b167-bd6d016ab652" /><br>
 
-**Methodology & Data Sources**<br><br><img <img width="752" height="394" alt="image" src="https://github.com/user-attachments/assets/fed9268b-c112-4469-aa8e-e813b0f35eac" />
- />
+**Methodology & Data Sources**<br><br><img width="752" height="394" alt="image" src="https://github.com/user-attachments/assets/fed9268b-c112-4469-aa8e-e813b0f35eac" />
+ <Br>
 
 ## Core Capabilities
 
