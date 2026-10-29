@@ -1,3 +1,6 @@
+[![License: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)](LICENSE)
+
+
 # THERMOCORTEX
 ### Extreme Heatwave Early Warning & Human Thermal Stress Intelligence
 
