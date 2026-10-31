@@ -1,4 +1,4 @@
-# THERMOCORTEX
+# THERMOCORTEX 
 ### Extreme Heatwave Early Warning & Human Thermal Stress Intelligence Platform
 
 **Beyond temperature. Toward contextual heat-risk awareness.**
