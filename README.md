@@ -127,7 +127,7 @@ Additional Python dependencies may be required if they are not included in the c
 
 The prototype includes the React dashboard, selected-city weather integration, interactive map, and initial backend thermal-stress calculations.
 
-The next development priorities are to replace fixed regional demonstration scores with transparent weather-based estimates, document the selected methodology and its assumptions, test calculations against appropriate reference data, and explore integration with official heat-alert sources.
+ Implemented live backend parsing engines running dynamic multi-factor calculations via pythermalcomfort mathematical indices.
 
 These improvements are necessary before the system can be considered for operational heat-risk assessment.
 
