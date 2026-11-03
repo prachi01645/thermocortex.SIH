@@ -125,11 +125,21 @@ Additional Python dependencies may be required if they are not included in the c
 
 ## Current Status and Future Direction
 
-The prototype includes the React dashboard, selected-city weather integration, interactive map, and initial backend thermal-stress calculations.
+The prototype includes a functional React dashboard, live Open-Meteo weather API integration, an interactive city map, and a modular Python backend. 
 
- Implemented live backend parsing engines running dynamic multi-factor calculations via pythermalcomfort mathematical indices.
+### Recent Milestone
 
-These improvements are necessary before the system can be considered for operational heat-risk assessment.
+* **Dynamic Calculations:** Implemented live backend parsing engines running dynamic multi-factor calculations via `pythermalcomfort` mathematical indices (WBGT and Heat Index) to eliminate reliance on static mock data.
+
+### Next Steps & Production Requirements
+
+* **Advanced Verification:** Test calculations against appropriate historical meteorological reference data sets to ensure model consistency across extreme anomalies.
+  
+* **Official Alerts Integration:** Explore automated alert data pipelines with official meteorological services (such as the India Meteorological Department) to validate and cross-reference localized warnings.
+  
+* **Multi-City Scaling:** Expand spatial coverage beyond the initial pilot cities by utilizing comprehensive GeoJSON ward boundaries.
+
+These architectural improvements and validations are necessary before the system can be considered for operational, real-world heat-risk assessment.
 
 ## Limitations
 
