@@ -133,7 +133,7 @@ These improvements are necessary before the system can be considered for operati
 
 ## Limitations
 
-THERMOCORTEX is an experimental prototype, not an official heatwave-warning service developed for ##Smart India Hackathon 2026. Its thermal-stress results rely on model inputs and assumptions and have not been independently validated. The open-sun and shade comparison is illustrative, and fixed regional demonstration scores must not be interpreted as validated risk rankings.
+THERMOCORTEX is an experimental prototype, not an official heatwave-warning service developed for **Smart India Hackathon 2026**. Its thermal-stress results rely on model inputs and assumptions and have not been independently validated. The open-sun and shade comparison is illustrative, and fixed regional demonstration scores must not be interpreted as validated risk rankings.
 
 For real-world safety decisions, consult official meteorological alerts and public-health guidance.
 
